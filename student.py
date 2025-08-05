@@ -6,9 +6,9 @@ from mysql.connector import Error
 def connect_db():
     return mysql.connector.connect(
         host="sql.freedb.tech",
-        user="freedb_preeti_mishra",
-        password="QUUFH#EGu2rb99#",
-        database="freedb_user_db"
+        user="freedb_DS_projects",
+        password="a%dyGrDQ#C96sZG",
+        database="freedb_Deepshikha_Projects"
     )
 
 # ✅ Create BMI table
@@ -104,3 +104,4 @@ if st.button("Show All Records"):
             st.write(f"Name: {rec[1]}, Weight: {rec[2]} kg, Height: {rec[3]} cm, BMI: {rec[4]}, Category: {rec[5]}")
     else:
         st.info("No records found.")
+
